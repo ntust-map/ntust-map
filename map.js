@@ -1,4 +1,4 @@
-var ntust_map = L.map('ntustmap').setView([25.0134707,121.5419075], 18).locate({setView: true, watch: true});
+var ntust_map = L.map('ntustmap').setView([25.0134707,121.5419075], 18).locate({setView: true});
 
 //標記所在位置
 function onLocationFound(e) {
